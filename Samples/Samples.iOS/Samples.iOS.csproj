@@ -25,6 +25,8 @@
     <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+    <CodesignProvision>VS: com.pure-imagination.blesample Development</CodesignProvision>
+    <CodesignKey>iPhone Developer: Alex Norman (LAEDL6MF6E)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -35,6 +37,8 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386, x86_64</MtouchArch>
     <ConsolePause>false</ConsolePause>
+    <CodesignProvision>VS: com.pure-imagination.blesample Development</CodesignProvision>
+    <CodesignKey>iPhone Developer: Alex Norman (LAEDL6MF6E)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,11 +50,10 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Alex Norman (LAEDL6MF6E)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>
-    </CodesignProvision>
+    <CodesignProvision>VS: com.pure-imagination.blesample Development</CodesignProvision>
     <CodesignExtraArgs>
     </CodesignExtraArgs>
   </PropertyGroup>
@@ -62,9 +65,10 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Alex Norman (LAEDL6MF6E)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchDebug>False</MtouchDebug>
+    <CodesignProvision>VS: com.pure-imagination.blesample Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
@@ -75,8 +79,8 @@
     <ConsolePause>False</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <BuildIpa>True</BuildIpa>
-    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>VS: com.pure-imagination.blesample Development</CodesignProvision>
+    <CodesignKey>iPhone Developer: Alex Norman (LAEDL6MF6E)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
@@ -87,8 +91,8 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>False</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignProvision>Automatic:AppStore</CodesignProvision>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>VS: com.pure-imagination.blesample Development</CodesignProvision>
+    <CodesignKey>iPhone Developer: Alex Norman (LAEDL6MF6E)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>

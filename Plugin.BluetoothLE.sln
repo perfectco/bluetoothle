@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Droid", "Samples\Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.iOS", "Samples\Samples.iOS\Samples.iOS.csproj", "{3107CAB7-B392-4013-A5B0-8A4A6149ADA4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples", "Samples\Samples\Samples.csproj", "{AF0917DD-079A-49CB-9115-BA08340E4ED8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples\Samples.csproj", "{AF0917DD-079A-49CB-9115-BA08340E4ED8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB45572F-4288-4D54-98BB-B2807C2A8C54}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Uwp", "samples\Samp
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Plugin.BluetoothLE.Shared", "Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.shproj", "{B6CFBF05-04E5-4AE6-8516-C6527C7A2BE8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.BluetoothLE", "Plugin.BluetoothLE\Plugin.BluetoothLE.csproj", "{F44FEBBA-7EA7-4B92-BF25-EBDCC1DB1830}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE", "Plugin.BluetoothLE\Plugin.BluetoothLE.csproj", "{F44FEBBA-7EA7-4B92-BF25-EBDCC1DB1830}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.iOS", "Plugin.BluetoothLE.iOS\Plugin.BluetoothLE.iOS.csproj", "{57D5FF44-345D-4229-AEFC-E3F7F260A665}"
 EndProject
@@ -34,7 +34,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.Uwp", "Plugin.BluetoothLE.Uwp\Plugin.BluetoothLE.Uwp.csproj", "{74399318-B10F-47DC-9500-1F5B9E337DBC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.BluetoothLE.Abstractions", "Plugin.BluetoothLE.Abstractions\Plugin.BluetoothLE.Abstractions.csproj", "{01D11EF2-074C-4BC0-9C05-5A6A9F974E05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.Abstractions", "Plugin.BluetoothLE.Abstractions\Plugin.BluetoothLE.Abstractions.csproj", "{01D11EF2-074C-4BC0-9C05-5A6A9F974E05}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.Mac", "Plugin.BluetoothLE.Mac\Plugin.BluetoothLE.Mac.csproj", "{8A0FC475-221D-4FE0-8308-3F703DC08F52}"
 EndProject
@@ -73,7 +73,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{C4F13359-332
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4A3F12EA-1025-4A8E-A616-7A95F2BBC8E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.BluetoothLE.Tests", "Plugin.BluetoothLE.Tests\Plugin.BluetoothLE.Tests.csproj", "{7DCADB09-C341-469C-BB5A-AAB7F4B2E4F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.Tests", "Plugin.BluetoothLE.Tests\Plugin.BluetoothLE.Tests.csproj", "{7DCADB09-C341-469C-BB5A-AAB7F4B2E4F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.Android.Tests", "Plugin.BluetoothLE.Android.Tests\Plugin.BluetoothLE.Android.Tests.csproj", "{906C3CAF-4317-4590-955B-C7F1CB233F73}"
 EndProject
@@ -82,8 +82,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.Uwp.Tests", "Plugin.BluetoothLE.Uwp.Tests\Plugin.BluetoothLE.Uwp.Tests.csproj", "{738E8526-76BF-4DE7-9852-1CB8DBC25BB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BluetoothLE.Tizen", "Plugin.BluetoothLE.Tizen\Plugin.BluetoothLE.Tizen.csproj", "{9D8D41EB-0BAB-4C6F-B430-DA5E6A525C2D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Tizen", "Samples\Samples.Tizen\Samples.Tizen.csproj", "{44BCE748-F82F-466E-BD30-1E34DCFDAF86}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -1026,54 +1024,6 @@ Global
 		{9D8D41EB-0BAB-4C6F-B430-DA5E6A525C2D}.Release|x64.Build.0 = Release|Any CPU
 		{9D8D41EB-0BAB-4C6F-B430-DA5E6A525C2D}.Release|x86.ActiveCfg = Release|Any CPU
 		{9D8D41EB-0BAB-4C6F-B430-DA5E6A525C2D}.Release|x86.Build.0 = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|Any CPU.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|ARM.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|ARM.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|iPhone.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|x64.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|x64.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|x86.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.AppStore|x86.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|ARM.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|x64.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Debug|x86.Build.0 = Debug|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|ARM.ActiveCfg = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|ARM.Build.0 = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|iPhone.Build.0 = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|x64.ActiveCfg = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|x64.Build.0 = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|x86.ActiveCfg = Release|Any CPU
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1100,7 +1050,6 @@ Global
 		{24495ADD-26B6-4A70-94C9-26779AA4CB9F} = {4A3F12EA-1025-4A8E-A616-7A95F2BBC8E9}
 		{738E8526-76BF-4DE7-9852-1CB8DBC25BB9} = {4A3F12EA-1025-4A8E-A616-7A95F2BBC8E9}
 		{9D8D41EB-0BAB-4C6F-B430-DA5E6A525C2D} = {C4F13359-332D-4ECF-8130-3719B8D93BF3}
-		{44BCE748-F82F-466E-BD30-1E34DCFDAF86} = {72EFDCDB-8AB3-402D-A9F1-9DBCD4C7B80D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B7CCBCD-E600-4996-A92B-63A24D7FC5EE}

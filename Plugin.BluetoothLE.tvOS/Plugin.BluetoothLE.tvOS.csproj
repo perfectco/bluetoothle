@@ -18,8 +18,6 @@
     <DefineConstants>DEBUG;__UNIFIED__;__MOBILE__;__TVOS__;APPLE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <MtouchUseSGen>true</MtouchUseSGen>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
@@ -30,8 +28,6 @@
     <DefineConstants>__UNIFIED__;__MOBILE__;__TVOS__;APPLE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <MtouchUseSGen>true</MtouchUseSGen>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>

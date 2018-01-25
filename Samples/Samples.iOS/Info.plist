@@ -29,7 +29,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>BLE Plugin</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.acrapps.ble</string>
+	<string>com.pure-imagination.blesample</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>

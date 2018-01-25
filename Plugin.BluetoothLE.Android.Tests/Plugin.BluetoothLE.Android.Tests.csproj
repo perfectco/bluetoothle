@@ -78,7 +78,7 @@
       <Name>Plugin.BluetoothLE.Android</Name>
     </ProjectReference>
     <ProjectReference Include="..\Plugin.BluetoothLE.Tests\Plugin.BluetoothLE.Tests.csproj">
-      <Project>{9c37cbdc-27b0-464c-8d61-fa59b4a01f31}</Project>
+      <Project>{7DCADB09-C341-469C-BB5A-AAB7F4B2E4F1}</Project>
       <Name>Plugin.BluetoothLE.Tests</Name>
     </ProjectReference>
   </ItemGroup>
